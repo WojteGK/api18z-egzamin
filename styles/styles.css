@@ -1,0 +1,48 @@
+ body{
+    background-color: rgb(41, 41, 41);
+}
+.site{
+    margin: 50px;
+    padding: 20px 80px 80px 80px;
+    background-color: black;
+    border-radius: 20px;
+    font: message-box;
+    color: blueviolet;
+}
+.heading {
+    padding: 50px;
+    padding-top: 0px;
+}
+.heading .text{
+    text-align: center;
+}
+.buttons{
+    padding: 8px 20px;
+    font-size: x-large;
+    background-color: #120774;
+    color: #ff00bf;    
+    border: 1px solid red;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.buttons.button:hover{
+    color: #fc2cc8;
+    background-color: #06003f;
+    border: 1px solid rgb(87, 0, 0);
+    justify-content: center;
+    transition: 0.4s;
+}
+.buttons.button:disabled{
+    color: rgb(244, 214, 250);
+    background-color: rgb(75, 75, 75);
+    border: none;
+    cursor:not-allowed;
+    transition: 2s;
+}
+.about{
+    margin-top: 20px;
+}
+.link{
+    color:#fc2cc8;
+    text-decoration:none;
+}
